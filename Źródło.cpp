@@ -1,6 +1,4 @@
 #include <iostream>
-//#include <string>
-
 
 void moja_funkcja()
 {
