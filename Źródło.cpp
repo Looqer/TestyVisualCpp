@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+//#include <string>
 
 
 void moja_funkcja()
@@ -12,7 +12,7 @@ void moja_funkcja()
 }
 
 int a, b;
-std::string ciagzn;
+std::string signs;
 
 void dodawanie()
 {
@@ -40,8 +40,8 @@ void wyznaczanie()
 void ciagiznakow()
 {
 	std::cout << "Podaj ci¹g znaków" << std::endl;
-	std::cin >> ciagzn;
-	std::cout << "Twoje znaki to: " << ciagzn << std::endl;
+	std::cin >> signs;
+	std::cout << "Twoje znaki to: " << signs << std::endl;
 }
 
 int main()
@@ -70,7 +70,7 @@ int main()
 			break;
 		default:
 			break;
-		} //switch
+		} 
 	} while (liczba != 0);
 
 	return 0;
