@@ -1,4 +1,7 @@
 #include <iostream>
+#include <string>
+
+
 void moja_funkcja()
 {
 	std::cout << "[1] - dodawanie" << std::endl;
@@ -9,7 +12,7 @@ void moja_funkcja()
 }
 
 int a, b;
-string ciagzn;
+std::string ciagzn;
 
 void dodawanie()
 {
@@ -22,7 +25,11 @@ void dodawanie()
 
 void odejmowanie()
 {
-	std::cout << "Jeszcze nie oprogramowano" << std::endl;
+	std::cout << "Podaj odjemn¹" << std::endl;
+	std::cin >> a;
+	std::cout << "Podaj odjemnik" << std::endl;
+	std::cin >> b;
+	std::cout << "Ró¿nica jest równa" << a - b << std::endl;
 }
 
 void wyznaczanie()
@@ -34,7 +41,7 @@ void ciagiznakow()
 {
 	std::cout << "Podaj ci¹g znaków" << std::endl;
 	std::cin >> ciagzn;
-	std::cout << "Twoje znaki to" << ciagzn << std::endl;
+	std::cout << "Twoje znaki to: " << ciagzn << std::endl;
 }
 
 int main()
